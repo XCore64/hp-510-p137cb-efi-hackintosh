@@ -6,12 +6,13 @@ May potentially work with macOS 10.5.3-10.5.7 versions of Catalina<br>
 Will work for USB installer and OS boot
 
 ## How to download and install
-Download from the 'Releases' section. Copy the EFI folder on the EFI partition.
+Download from the 'Releases' section. Copy the EFI folder to the EFI partition for the macOS installer and/or macOS partition after successful install.
 
 ## What to do during installation of macOS
 * Go through normal installation
 
 ## What to do after successful boot to OS
+* Copy the EFI to the EFI partition for the OS
 * Generate new SmUUID, Serial Number, ROM, Custom UUID using Clover Configurator
 * Remove '-v' flag if text/verbose boot is a bother
 * Remove 'dart=0' flag if you do have issues getting VMware or VirtualBox to work
