@@ -13,7 +13,10 @@ Download from the 'Releases' section. Copy the EFI folder on the EFI partition.
 
 ## What to do after successful boot to OS
 * Generate new SmUUID, Serial Number, ROM, Custom UUID using Clover Configurator
-* remove '-v' flag if text/verbose boot is a bother
+* Remove '-v' flag if text/verbose boot is a bother
+* Remove 'dart=0' flag if you do have issues getting VMware or VirtualBox to work
+* Set 'Computer Sleep' and 'Display Sleep' to never on System Preferences > Energy Saver since Intel HD Graphics 530 has issues with sleep/hibernate mode
+* Uncheck 'Put hard disks to sleep when possible' on System Preferences > Energy Saver if CD/DVD drive is present due to kernel panic
 
 ## Hardware Specifications
 * <i>Motherboard</i>: Hamar 81B4 (Intel H170 Chipset)
