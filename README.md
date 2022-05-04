@@ -1,7 +1,7 @@
 # hp-510-p137cb-efi-hackintosh
 EFI Configuration for HP Pavilion 510-p137cb Desktop PC
 
-Compatible with: macOS 10.5.3-10.5.7 Catalina<br>, 11.3.1 (Big Sur)
+Compatible with: macOS 10.5.3-10.5.7 Catalina, 11.3.1 (Big Sur)<br>
 Not compatible with: Big Sur 11.2.3
 Will work for USB installer and OS boot
 
@@ -34,9 +34,9 @@ For Big Sur compatibility, download Release 2 or later.
 * <i>USB Connections</i>: 2-port USB 3.0 (rear), 2-port USB 2.0 (rear), 2-port USB 2.0 (front)
 
 ## Bootloader Specifications and What is included in the EFI
-* <i>Bootloader</i>: Clover --r5119-- r5146 EFI
+* <i>Bootloader</i>: Clover ~~r5119~~ r5146 EFI
 * <i>SMBIOS Configuration</i>: iMac17,1
-* <i>AppleALC</i>: --1.7.0-- 1.7.1
+* <i>AppleALC</i>: ~~1.7.0~~ 1.7.1
 * <i>Lilu</i>: 1.6.0
 * <i>WhateverGreen</i>: 1.5.8
 * <i>VirtualSMC</i>: 1.2.9
