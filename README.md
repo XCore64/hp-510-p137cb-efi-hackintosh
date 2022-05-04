@@ -17,7 +17,7 @@ For Big Sur compatibility, download Release 2 or later.
 * Generate new SMBIOS data using [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/)
 * Remove '-v' flag if text/verbose boot is a bother
 * Remove 'dart=0' flag if you do have issues getting VMware or VirtualBox to work
-* Set 'Computer Sleep' and 'Display Sleep' to never on System Preferences > Energy Saver if Intel HD Graphics 530
+* Set 'Computer Sleep' and 'Display Sleep' to never on System Preferences > Energy Saver if using Intel HD Graphics 530
 * Uncheck 'Put hard disks to sleep when possible' on System Preferences > Energy Saver if CD/DVD drive is present due to kernel panic
 
 ## Hardware Specifications
