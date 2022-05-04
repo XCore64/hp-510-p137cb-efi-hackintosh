@@ -1,11 +1,13 @@
 # hp-510-p137cb-efi-hackintosh
 EFI Configuration for HP Pavilion 510-p137cb Desktop PC
 
-Compatible with: macOS 10.5.3-10.5.7 Catalina<br>
+Compatible with: macOS 10.5.3-10.5.7 Catalina<br>, 11.3.1 (Big Sur)
+Not compatible with: Big Sur 11.2.3
 Will work for USB installer and OS boot
 
 ## How to download and install
-Download from the 'Releases' section. Copy the EFI folder to the EFI partition for the macOS installer and/or macOS partition after successful install.
+Download from the 'Releases' section. Copy the EFI folder to the EFI partition for the macOS installer and/or macOS partition after successful install.<br>
+For Big Sur compatibility, download Release 2 or later.
 
 ## What to do during installation of macOS
 * Go through normal installation
@@ -15,7 +17,7 @@ Download from the 'Releases' section. Copy the EFI folder to the EFI partition f
 * Generate new SMBIOS data using [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/)
 * Remove '-v' flag if text/verbose boot is a bother
 * Remove 'dart=0' flag if you do have issues getting VMware or VirtualBox to work
-* Set 'Computer Sleep' and 'Display Sleep' to never on System Preferences > Energy Saver since Intel HD Graphics 530 has issues with sleep/hibernate mode
+* Set 'Computer Sleep' and 'Display Sleep' to never on System Preferences > Energy Saver if Intel HD Graphics 530
 * Uncheck 'Put hard disks to sleep when possible' on System Preferences > Energy Saver if CD/DVD drive is present due to kernel panic
 
 ## Hardware Specifications
@@ -32,9 +34,9 @@ Download from the 'Releases' section. Copy the EFI folder to the EFI partition f
 * <i>USB Connections</i>: 2-port USB 3.0 (rear), 2-port USB 2.0 (rear), 2-port USB 2.0 (front)
 
 ## Bootloader Specifications and What is included in the EFI
-* <i>Bootloader</i>: Clover r5119 EFI
+* <i>Bootloader</i>: Clover --r5119-- r5146 EFI
 * <i>SMBIOS Configuration</i>: iMac17,1
-* <i>AppleALC</i>: 1.7.0
+* <i>AppleALC</i>: --1.7.0-- 1.7.1
 * <i>Lilu</i>: 1.6.0
 * <i>WhateverGreen</i>: 1.5.8
 * <i>VirtualSMC</i>: 1.2.9
