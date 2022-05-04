@@ -7,6 +7,7 @@ Will work for USB installer and OS boot
 
 ## How to download and install
 Download from the 'Releases' section. Copy the EFI folder to the EFI partition for the macOS installer and/or macOS partition after successful install.<br>
+<br>
 For Big Sur compatibility, download Release 2 or later.
 
 ## What to do during installation of macOS
