@@ -1,14 +1,14 @@
 # hp-510-p137cb-efi-hackintosh
 EFI Configuration for HP Pavilion 510-p137cb Desktop PC
 
-Compatible with: macOS 10.5.3-10.5.7 Catalina, 11.3.1 (Big Sur)<br>
-Not compatible with: Big Sur 11.2.3<br>
-Will work for USB installer and OS boot
+Tested compatiblity with: macOS 10.5.3-10.5.7 Catalina, 11.3.1 (Big Sur)<br>
+May not be compatible with: Big Sur 11.2.3<br>
+Is used for USB installer and OS boot
 
 ## How to download and install
 Download from the 'Releases' section. Copy the EFI folder to the EFI partition for the macOS installer and/or macOS partition after successful install.<br>
 <br>
-For Big Sur compatibility, download Release 2 or later.
+For Big Sur compatibility, download v2.0 or later.
 
 ## What to do during installation of macOS
 * Go through normal installation
