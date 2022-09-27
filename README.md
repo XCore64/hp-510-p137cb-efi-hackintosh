@@ -7,7 +7,7 @@ Usable for USB installer and OS boot
 * macOS Big Sur for version 11.3.1
 
 ## Tested incompatiblity 
-* macOS Big Sur 11.2.3 and 11.6.5
+* macOS Big Sur 11.2.3 and 11.5.2
 
 ## How to download and install
 * Download from the 'Releases' section (Recommended for Big Sur installation: Download release v2.0 or later)
